@@ -8,6 +8,8 @@ chute_inteiro = int(chute_texto)
 if (chute_inteiro == numero_secreto):
     print("Você acertou!")
 else:
-    print("Você errou!")
-
+    if (chute_inteiro > numero_secreto):
+        print("Você errou! O seu número é maior.")
+    else:
+        print("Você errou! O seu número é menor.")
 print("Fim do jogo")
