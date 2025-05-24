@@ -9,7 +9,7 @@ if (chute_inteiro == numero_secreto):
     print("Você acertou!")
 else:
     if (chute_inteiro > numero_secreto):
-        print("Você errou! O seu número é maior.")
+        print("Você errou! O seu número é maior que o número secreto.")
     else:
-        print("Você errou! O seu número é menor.")
+        print("Você errou! O seu número é menor que o número secreto.")
 print("Fim do jogo")
